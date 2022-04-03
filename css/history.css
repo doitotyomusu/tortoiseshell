@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+.gnav li a {
+    color: #A2A2A2;
+}
+
+.history {
+    height: 100vh;
+    background-image: url(../image/history/history_sp_img.gif);
+    background-color: #000;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left 0 bottom 0;
+}
+
+.history_movie video{
+    position: fixed;
+    height: 100vh;
+    left: 0;
+    bottom: 0;
+}
+
+.history_movie_pc video{
+    display: none;
+}
+
+.history_title, .history_text {
+    width: 70%;
+    position: relative;
+    z-index: 1;
+    color: #fff;
+    top: 19vh;
+    left: 28vw;
+}
+
+.history_text{
+    margin-top: 20px;
+}
+
+
+@media screen and (min-width: 600px) {
+    .history_title, .history_text {
+    top: 19vh;
+    left: 19vw;
+    }
+
+    .history_title h2{
+        font-size: 8rem;
+    }
+
+    .history_text p{
+        font-size: 3rem;
+    }
+}
+
+@media screen and (min-width: 1025px){
+    .history {
+        background-position: left 10vw bottom 0;
+    }
+
+    .history_movie video{
+        left: 10vw;
+    }
+
+    .history_title, .history_text {
+        top: 19vh;
+        left: 25vw;
+        }
+
+    .history_title h2{
+        font-size: 8.8rem;
+    }
+
+    .history_text p{
+        font-size: 3.6rem;
+    }
+}
+
+@media screen and (min-height: 1080px){
+    .history_title h2{
+        font-size: 12rem;
+    }
+
+    .history_text p{
+        font-size: 4rem;
+    }
+}
+
+footer {
+    color: #A2A2A2;
+    position: fixed;
+    height: 23px;
+    bottom: 30px;
+}
+footer ul {
+    padding: 0;
+}

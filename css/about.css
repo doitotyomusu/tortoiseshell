@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+.about {
+    min-height: 100vh;
+    min-height: calc(var(--vh, 1vh) * 100);
+    background-image: url(./../image/about/sp_about.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right 0% bottom 0%;
+    background-color: #EE8029;
+}
+
+.about_name {
+    padding: 17vh 0 0 9vw;
+}
+.about_name h2 {
+    font-size: 6rem;
+    text-align: left;
+}
+.about_text p{
+    margin-left: 9vw;
+    font-size: 3.2rem;
+    letter-spacing: .1rem;
+    text-align: left;
+}
+.about_text :nth-child(2){
+    padding-top: .1rem;
+}
+.about_text :nth-child(4){
+    padding-left: .4vw;
+}
+.about_text :nth-child(5){
+    padding-top: .3rem;
+}
+.upper {
+    text-transform: uppercase;
+}
+@media screen and (min-width: 748px){
+    .about {
+        background-image: url(./../image/about/pc_about.jpg);
+        background-size: cover;
+        background-position: 59%;
+    }
+    .about_name {
+        padding: 30vh 0 0 9vw;
+    }
+    .about_name h2 {
+        font-size: 9rem;
+    }
+    .about_text p{
+        margin-left: 9vw;
+        font-size: 5rem;
+    }
+}
+@media screen and (min-width: 1300px){
+    .about_name {
+        padding: 30vh 0 0 15vw;
+    }
+    .about_text p{
+        margin-left: 15vw;
+    }
+}
+
+@media screen and (min-height: 1080px){
+    .about_name {
+        padding: 30vh 0 0 9vw;
+    }
+}
+
+.about_footer {
+    height: 23px;
+    position: fixed;
+    left: 0;
+    bottom: 30px;
+}
+
+.sns_nav ul{
+    padding: 0;
+}

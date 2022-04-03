@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+.btn {
+    position: fixed;
+    right: 4vw;
+    bottom: 1vh;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 2;
+}
+
+.btn img {
+    height: auto;
+    width: 92px;
+}
